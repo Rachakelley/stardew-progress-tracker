@@ -1,0 +1,3303 @@
+{
+    "name": "Rachel",
+    "forceOneTileWide": false,
+    "isEmoting": true,
+    "isCharging": false,
+    "isGlowing": false,
+    "coloredBorder": false,
+    "flip": false,
+    "drawOnTop": false,
+    "faceTowardFarmer": false,
+    "ignoreMovementAnimation": false,
+    "faceAwayFromFarmer": false,
+    "scale": {
+      "float": 1
+    },
+    "glowingTransparency": 0.25,
+    "glowRate": 0.05,
+    "Gender": "Female",
+    "willDestroyObjectsUnderfoot": true,
+    "Position": {
+      "X": 576,
+      "Y": 608
+    },
+    "Speed": 5,
+    "FacingDirection": 1,
+    "IsEmoting": true,
+    "CurrentEmote": 24,
+    "Scale": 1,
+    "questLog": {
+      "Quest": [
+        {
+          "_currentObjective": "Reach Farming level 1 and craft a scarecrow.",
+          "_questDescription": "As you gain experience, you'll discover new crafting recipes to increase profit and make life easier. A scarecrow, for example, will prevent crows from snacking on your precious crops.",
+          "_questTitle": "Advancement",
+          "rewardDescription": -1,
+          "accepted": false,
+          "completed": false,
+          "dailyQuest": false,
+          "showNew": false,
+          "canBeCancelled": true,
+          "destroy": false,
+          "id": 8,
+          "moneyReward": 100,
+          "questType": 2,
+          "daysLeft": 0,
+          "dayQuestAccepted": -1,
+          "nextQuests": {
+            "int": -1
+          },
+          "questTitle": "Advancement",
+          "isBigCraftable": "",
+          "indexToCraft": "(BC)8"
+        },
+        {
+          "_currentObjective": "Build a Silo.",
+          "_questDescription": "Robin, the local carpenter, lives north of town. In exchange for raw materials and money, she'll construct new buildings on your farm. If you build a silo, you can start harvesting your own grass with the scythe, and store it to feed your animals.",
+          "_questTitle": "Feeding Animals",
+          "rewardDescription": -1,
+          "accepted": false,
+          "completed": false,
+          "dailyQuest": false,
+          "showNew": false,
+          "canBeCancelled": true,
+          "destroy": false,
+          "id": 133,
+          "moneyReward": 100,
+          "questType": 8,
+          "daysLeft": 0,
+          "dayQuestAccepted": -1,
+          "nextQuests": {
+            "int": -1
+          },
+          "questTitle": "Feeding Animals",
+          "buildingType": "Silo"
+        },
+        {
+          "_currentObjective": "Investigate the Community Center",
+          "_questDescription": "There's something odd going on in the Community Center...",
+          "_questTitle": "\"Rat Problem\"",
+          "rewardDescription": -1,
+          "accepted": false,
+          "completed": false,
+          "dailyQuest": false,
+          "showNew": false,
+          "canBeCancelled": true,
+          "destroy": false,
+          "id": 26,
+          "moneyReward": 0,
+          "questType": 1,
+          "daysLeft": 0,
+          "dayQuestAccepted": -1,
+          "nextQuests": {
+            "int": -1
+          },
+          "questTitle": "\"Rat Problem\""
+        },
+        {
+          "_currentObjective": "Reach level 40 in the mines.",
+          "_questDescription": "It seems that the mine elevator is still functional. It will allow you to quickly return to any elevator doors you've discovered. A deeper expedition might be in order.",
+          "_questTitle": "Deeper In The Mine",
+          "rewardDescription": -1,
+          "accepted": false,
+          "completed": false,
+          "dailyQuest": false,
+          "showNew": false,
+          "canBeCancelled": false,
+          "destroy": false,
+          "id": 17,
+          "moneyReward": 0,
+          "questType": 1,
+          "daysLeft": 0,
+          "dayQuestAccepted": -1,
+          "nextQuests": {
+            "int": 18
+          },
+          "questTitle": "Deeper In The Mine"
+        },
+        {
+          "_currentObjective": "Find Robin's lost axe.",
+          "_questDescription": "Robin lost her favorite axe. The last time she remembers using it, she was cutting wood south of Marnie's ranch.",
+          "_questTitle": "Robin's Lost Axe",
+          "rewardDescription": -1,
+          "accepted": false,
+          "completed": false,
+          "dailyQuest": false,
+          "showNew": true,
+          "canBeCancelled": true,
+          "destroy": false,
+          "id": 100,
+          "moneyReward": 250,
+          "questType": 9,
+          "daysLeft": 0,
+          "dayQuestAccepted": -1,
+          "nextQuests": {
+            "int": -1
+          },
+          "questTitle": "Robin's Lost Axe",
+          "npcName": "Robin",
+          "locationOfItem": "Forest",
+          "itemIndex": "(O)788",
+          "tileX": 110,
+          "tileY": 81,
+          "itemFound": false
+        }
+      ]
+    },
+    "professions": "",
+    "newLevels": "",
+    "experiencePoints": {
+      "int": [
+        210,
+        200,
+        626,
+        427,
+        68,
+        0
+      ]
+    },
+    "items": {
+      "Item": [
+        {
+          "isLostItem": false,
+          "category": -98,
+          "hasBeenInInventory": true,
+          "name": "Rusty Sword",
+          "itemId": 0,
+          "specialItem": false,
+          "isRecipe": false,
+          "quality": 0,
+          "stack": 1,
+          "SpecialVariable": 0,
+          "initialParentTileIndex": 0,
+          "currentParentTileIndex": 0,
+          "indexOfMenuItemView": 0,
+          "instantUse": false,
+          "isEfficient": false,
+          "animationSpeedModifier": 1,
+          "swingTicker": 834708,
+          "upgradeLevel": 0,
+          "numAttachmentSlots": 0,
+          "attachments": "",
+          "InitialParentTileIndex": 0,
+          "IndexOfMenuItemView": 0,
+          "InstantUse": false,
+          "IsEfficient": false,
+          "AnimationSpeedModifier": 1,
+          "type": 3,
+          "minDamage": 2,
+          "maxDamage": 5,
+          "speed": 0,
+          "addedPrecision": 0,
+          "addedDefense": 0,
+          "addedAreaOfEffect": 0,
+          "knockback": 1,
+          "critChance": 0.02,
+          "critMultiplier": 3,
+          "isOnSpecial": false
+        },
+        {
+          "isLostItem": false,
+          "category": -99,
+          "hasBeenInInventory": true,
+          "name": "Pickaxe",
+          "itemId": "Pickaxe",
+          "specialItem": false,
+          "isRecipe": false,
+          "quality": 0,
+          "stack": 1,
+          "SpecialVariable": 0,
+          "initialParentTileIndex": 105,
+          "currentParentTileIndex": 107,
+          "indexOfMenuItemView": 131,
+          "instantUse": false,
+          "isEfficient": false,
+          "animationSpeedModifier": 1,
+          "swingTicker": 369500,
+          "upgradeLevel": 0,
+          "numAttachmentSlots": 0,
+          "attachments": "",
+          "InitialParentTileIndex": 105,
+          "IndexOfMenuItemView": 131,
+          "InstantUse": false,
+          "IsEfficient": false,
+          "AnimationSpeedModifier": 1,
+          "additionalPower": {
+            "int": 0
+          }
+        },
+        {
+          "isLostItem": false,
+          "category": -99,
+          "hasBeenInInventory": true,
+          "name": "Hoe",
+          "itemId": "Hoe",
+          "specialItem": false,
+          "isRecipe": false,
+          "quality": 0,
+          "stack": 1,
+          "SpecialVariable": 0,
+          "initialParentTileIndex": 21,
+          "currentParentTileIndex": 21,
+          "indexOfMenuItemView": 47,
+          "instantUse": false,
+          "isEfficient": false,
+          "animationSpeedModifier": 1,
+          "swingTicker": 983219,
+          "upgradeLevel": 0,
+          "numAttachmentSlots": 0,
+          "attachments": "",
+          "InitialParentTileIndex": 21,
+          "IndexOfMenuItemView": 47,
+          "InstantUse": false,
+          "IsEfficient": false,
+          "AnimationSpeedModifier": 1
+        },
+        {
+          "isLostItem": false,
+          "category": -99,
+          "hasBeenInInventory": true,
+          "name": "Axe",
+          "itemId": "Axe",
+          "specialItem": false,
+          "isRecipe": false,
+          "quality": 0,
+          "stack": 1,
+          "SpecialVariable": 0,
+          "initialParentTileIndex": 189,
+          "currentParentTileIndex": 191,
+          "indexOfMenuItemView": 215,
+          "instantUse": false,
+          "isEfficient": false,
+          "animationSpeedModifier": 1,
+          "swingTicker": 435567,
+          "upgradeLevel": 0,
+          "numAttachmentSlots": 0,
+          "attachments": "",
+          "InitialParentTileIndex": 189,
+          "IndexOfMenuItemView": 215,
+          "InstantUse": false,
+          "IsEfficient": false,
+          "AnimationSpeedModifier": 1,
+          "additionalPower": {
+            "int": 0
+          }
+        },
+        {
+          "isLostItem": false,
+          "category": -99,
+          "hasBeenInInventory": true,
+          "name": "Scythe",
+          "itemId": 47,
+          "specialItem": false,
+          "isRecipe": false,
+          "quality": 0,
+          "stack": 1,
+          "SpecialVariable": 0,
+          "initialParentTileIndex": 47,
+          "currentParentTileIndex": 47,
+          "indexOfMenuItemView": 47,
+          "instantUse": false,
+          "isEfficient": false,
+          "animationSpeedModifier": 1,
+          "swingTicker": 809560,
+          "upgradeLevel": 0,
+          "numAttachmentSlots": 0,
+          "attachments": "",
+          "InitialParentTileIndex": 47,
+          "IndexOfMenuItemView": 47,
+          "InstantUse": false,
+          "IsEfficient": false,
+          "AnimationSpeedModifier": 1,
+          "type": 3,
+          "minDamage": 1,
+          "maxDamage": 3,
+          "speed": 0,
+          "addedPrecision": 0,
+          "addedDefense": 0,
+          "addedAreaOfEffect": 0,
+          "knockback": 1,
+          "critChance": 0.02,
+          "critMultiplier": 3,
+          "isOnSpecial": false
+        },
+        {
+          "isLostItem": false,
+          "category": -99,
+          "hasBeenInInventory": true,
+          "name": "Bamboo Pole",
+          "itemId": "BambooPole",
+          "specialItem": false,
+          "isRecipe": false,
+          "quality": 0,
+          "stack": 1,
+          "SpecialVariable": 0,
+          "initialParentTileIndex": 8,
+          "currentParentTileIndex": 8,
+          "indexOfMenuItemView": 8,
+          "instantUse": false,
+          "isEfficient": false,
+          "animationSpeedModifier": 1,
+          "swingTicker": 602467,
+          "upgradeLevel": 0,
+          "numAttachmentSlots": 0,
+          "attachments": {
+            "Object": [
+              "",
+              ""
+            ]
+          },
+          "InitialParentTileIndex": 8,
+          "IndexOfMenuItemView": 8,
+          "InstantUse": false,
+          "IsEfficient": false,
+          "AnimationSpeedModifier": 1,
+          "CastDirection": -1
+        },
+        "",
+        "",
+        {
+          "isLostItem": false,
+          "category": -99,
+          "hasBeenInInventory": true,
+          "name": "Watering Can",
+          "itemId": "WateringCan",
+          "specialItem": false,
+          "isRecipe": false,
+          "quality": 0,
+          "stack": 1,
+          "SpecialVariable": 0,
+          "initialParentTileIndex": 273,
+          "currentParentTileIndex": 275,
+          "indexOfMenuItemView": 296,
+          "instantUse": false,
+          "isEfficient": false,
+          "animationSpeedModifier": 1,
+          "swingTicker": 958339,
+          "upgradeLevel": 0,
+          "numAttachmentSlots": 0,
+          "attachments": "",
+          "InitialParentTileIndex": 273,
+          "IndexOfMenuItemView": 296,
+          "InstantUse": false,
+          "IsEfficient": false,
+          "AnimationSpeedModifier": 1,
+          "isBottomless": false,
+          "WaterLeft": 35,
+          "IsBottomless": false
+        },
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "dialogueQuestionsAnswered": "",
+    "cookingRecipes": {
+      "item": [
+        {
+          "key": {
+            "string": "Fried Egg"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Stir Fry"
+          },
+          "value": {
+            "int": 0
+          }
+        }
+      ]
+    },
+    "craftingRecipes": {
+      "item": [
+        {
+          "key": {
+            "string": "Wood Fence"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Gate"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Chest"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "Torch"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Wood Sign"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Stone Sign"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Text Sign"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Wood Path"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Gravel Path"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Cobblestone Path"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Campfire"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Cherry Bomb"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Wild Seeds (Sp)"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Field Snack"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Charcoal Kiln"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Furnace"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "Scarecrow"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Basic Fertilizer"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "Staircase"
+          },
+          "value": {
+            "int": 0
+          }
+        }
+      ]
+    },
+    "activeDialogueEvents": {
+      "item": [
+        {
+          "key": {
+            "string": "cropMatured_Carrot_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_24_memory_oneday"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_152_memory_oneday"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_708_memory_oneday"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_0_memory_oneday"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_23_memory_oneday"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_992553_memory_oneday"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_FarmHouse_memory_oneweek"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Forest_memory_oneweek"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Saloon_memory_oneweek"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Town_memory_oneweek"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_BusStop_memory_oneweek"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Farm_memory_oneweek"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "mineArea_10_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine10_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine9_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine8_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine7_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine6_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_HaleyHouse_memory_oneweek"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Beach_memory_oneweek"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Trailer_memory_oneweek"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_JoshHouse_memory_oneweek"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Coop_memory_oneweek"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Backwoods_memory_oneweek"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Tent_memory_oneweek"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_ScienceHouse_memory_oneweek"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Mountain_memory_oneweek"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_JojaMart_memory_oneweek"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Blacksmith_memory_oneweek"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_ArchaeologyHouse_memory_oneweek"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_131_memory_oneday"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_147_memory_oneday"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "gotPet_memory_oneday"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_1590166_memory_oneday"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_FarmCave_memory_oneweek"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_SamHouse_memory_oneweek"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_SeedShop_memory_oneweek"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_132_memory_oneweek"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_AnimalShop_memory_oneweek"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Mine_memory_oneweek"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_100162_memory_oneweek"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_SebastianRoom_memory_oneweek"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_9_memory_oneday"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_25_memory_oneday"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine6"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine7"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine8"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine9"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine10"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "mineArea_10"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine11"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine12"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine13"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_15"
+          },
+          "value": {
+            "int": 0
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine11_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine12_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine13_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_15_memory_oneday"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "cropMatured_Carrot"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_11"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_700"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_153"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_RiverJelly"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_16"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_AdventureGuild"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine14"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_12"
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_11_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_700_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_153_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_RiverJelly_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_16_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_AdventureGuild_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine14_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_12_memory_oneday"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_1590166"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "gotPet"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_147"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_131"
+          },
+          "value": {
+            "int": 2
+          }
+        }
+      ]
+    },
+    "previousActiveDialogueEvents": {
+      "item": [
+        {
+          "key": {
+            "string": "Introduction"
+          },
+          "value": {
+            "int": 12
+          }
+        },
+        {
+          "key": {
+            "string": "purchasedAnimal_Chicken"
+          },
+          "value": {
+            "int": 12
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Farm"
+          },
+          "value": {
+            "int": 11
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_BusStop"
+          },
+          "value": {
+            "int": 11
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Town"
+          },
+          "value": {
+            "int": 11
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Saloon"
+          },
+          "value": {
+            "int": 11
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Forest"
+          },
+          "value": {
+            "int": 11
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_FarmHouse"
+          },
+          "value": {
+            "int": 11
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Coop"
+          },
+          "value": {
+            "int": 10
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_JoshHouse"
+          },
+          "value": {
+            "int": 10
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Trailer"
+          },
+          "value": {
+            "int": 10
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Beach"
+          },
+          "value": {
+            "int": 10
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_HaleyHouse"
+          },
+          "value": {
+            "int": 10
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_ArchaeologyHouse"
+          },
+          "value": {
+            "int": 9
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Blacksmith"
+          },
+          "value": {
+            "int": 9
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_JojaMart"
+          },
+          "value": {
+            "int": 9
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Mountain"
+          },
+          "value": {
+            "int": 9
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_ScienceHouse"
+          },
+          "value": {
+            "int": 9
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Tent"
+          },
+          "value": {
+            "int": 9
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Backwoods"
+          },
+          "value": {
+            "int": 9
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_132"
+          },
+          "value": {
+            "int": 8
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_SeedShop"
+          },
+          "value": {
+            "int": 8
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_SamHouse"
+          },
+          "value": {
+            "int": 8
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_FarmCave"
+          },
+          "value": {
+            "int": 8
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_SebastianRoom"
+          },
+          "value": {
+            "int": 7
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_100162"
+          },
+          "value": {
+            "int": 7
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_Mine"
+          },
+          "value": {
+            "int": 7
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_AnimalShop"
+          },
+          "value": {
+            "int": 7
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_611439"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_FishShop"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_739330"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "cropMatured_24"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_CommunityCenter"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_142"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "mineArea_0"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine1"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine2"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine3"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine4"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_14"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine5"
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_992553"
+          },
+          "value": {
+            "int": 5
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_23"
+          },
+          "value": {
+            "int": 5
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_0"
+          },
+          "value": {
+            "int": 5
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_708"
+          },
+          "value": {
+            "int": 5
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_152"
+          },
+          "value": {
+            "int": 5
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_24"
+          },
+          "value": {
+            "int": 5
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_9"
+          },
+          "value": {
+            "int": 5
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_25"
+          },
+          "value": {
+            "int": 5
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine6"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine7"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine8"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine9"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine10"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "mineArea_10"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine11"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine12"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine13"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_15"
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": "cropMatured_Carrot"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_11"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_700"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_153"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_RiverJelly"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_16"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_AdventureGuild"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "firstVisit_UndergroundMine14"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "questComplete_12"
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": "eventSeen_1590166"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "gotPet"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_147"
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": "fishCaught_131"
+          },
+          "value": {
+            "int": 2
+          }
+        }
+      ]
+    },
+    "triggerActionsRun": {
+      "string": "Mail_Willy_ResendSpring21"
+    },
+    "eventsSeen": {
+      "int": [
+        60367,
+        100162,
+        739330,
+        611439,
+        992553,
+        0,
+        1590166
+      ]
+    },
+    "secretNotesSeen": "",
+    "songsHeard": {
+      "string": [
+        "title_day",
+        "title_night",
+        "CloudCountry",
+        "spring1",
+        "spring_day_ambient",
+        "spring_night_ambient",
+        "Saloon1",
+        "spring2",
+        "springtown",
+        "ocean",
+        "libraryTheme",
+        "Hospital_Ambient",
+        "marnieShop",
+        "spring3",
+        "MarlonsTheme",
+        "distantBanjo",
+        "communityCenter",
+        "Upper_Ambient",
+        "Crystal Bells",
+        "Cavern",
+        "Secret Gnomes"
+      ]
+    },
+    "achievements": "",
+    "specialItems": "",
+    "specialBigCraftables": "",
+    "mailReceived": {
+      "string": [
+        "button_tut_1",
+        "button_tut_2",
+        "checkedBulletinOnce",
+        "BackpackTip",
+        "Clint_Introduction",
+        "Pam_Introduction",
+        "pierreBackpack",
+        "spring_2_1",
+        "geodeFound",
+        "Maru_Introduction",
+        "Abigail_Introduction",
+        "Alex_Introduction",
+        "Emily_Introduction",
+        "Evelyn_Introduction",
+        "George_Introduction",
+        "Sam_Introduction",
+        "Elliott_Introduction",
+        "Willy_Introduction",
+        "Haley_Introduction",
+        "Jodi_Introduction",
+        "Marnie_Introduction",
+        "Penny_Introduction",
+        "artifactFound",
+        "JojaGreeting",
+        "Sebastian_Introduction",
+        "Robin_Introduction",
+        "Demetrius_Introduction",
+        "Linus_Introduction",
+        "robinWell",
+        "Pierre_Introduction",
+        "Caroline_Introduction",
+        "Alex_purchasedAnimal_Chicken_memory_oneday",
+        "Vincent_Introduction",
+        "Gus_Introduction",
+        "landslideDone",
+        "Lewis_Introduction",
+        "Jas_Introduction",
+        "Harvey_Introduction",
+        "NOQUEST_13",
+        "ccDoorUnlock",
+        "copperFound",
+        "guildQuest",
+        "somethingToDonate",
+        "guildMember",
+        "checkedMonsterBoard",
+        "Lewis_cropMatured_24",
+        "spring_11_1"
+      ]
+    },
+    "mailForTomorrow": "",
+    "mailbox": {
+      "string": "spring_12"
+    },
+    "locationsVisited": {
+      "string": [
+        "Farm",
+        "BusStop",
+        "Town",
+        "Saloon",
+        "Forest",
+        "FarmHouse",
+        "Coop",
+        "JoshHouse",
+        "Trailer",
+        "Beach",
+        "HaleyHouse",
+        "ArchaeologyHouse",
+        "Blacksmith",
+        "JojaMart",
+        "Mountain",
+        "ScienceHouse",
+        "Tent",
+        "Backwoods",
+        "SeedShop",
+        "SamHouse",
+        "FarmCave",
+        "SebastianRoom",
+        "Mine",
+        "AnimalShop",
+        "FishShop",
+        "CommunityCenter",
+        "AdventureGuild"
+      ]
+    },
+    "timeWentToBed": {
+      "int": 0
+    },
+    "sleptInTemporaryBed": {
+      "boolean": false
+    },
+    "stats": {
+      "specificMonstersKilled": {
+        "item": [
+          {
+            "key": {
+              "string": "Green Slime"
+            },
+            "value": {
+              "int": 11
+            }
+          },
+          {
+            "key": {
+              "string": "Bug"
+            },
+            "value": {
+              "int": 5
+            }
+          },
+          {
+            "key": {
+              "string": "Fly"
+            },
+            "value": {
+              "int": 3
+            }
+          }
+        ]
+      },
+      "Values": {
+        "item": [
+          {
+            "key": {
+              "string": "averageBedtime"
+            },
+            "value": {
+              "unsignedInt": 2004
+            }
+          },
+          {
+            "key": {
+              "string": "daysPlayed"
+            },
+            "value": {
+              "unsignedInt": 12
+            }
+          },
+          {
+            "key": {
+              "string": "stepsTaken"
+            },
+            "value": {
+              "unsignedInt": 11138
+            }
+          },
+          {
+            "key": {
+              "string": "rocksCrushed"
+            },
+            "value": {
+              "unsignedInt": 376
+            }
+          },
+          {
+            "key": {
+              "string": "stoneGathered"
+            },
+            "value": {
+              "unsignedInt": 298
+            }
+          },
+          {
+            "key": {
+              "string": "itemsForaged"
+            },
+            "value": {
+              "unsignedInt": 45
+            }
+          },
+          {
+            "key": {
+              "string": "trashCansChecked"
+            },
+            "value": {
+              "unsignedInt": 7
+            }
+          },
+          {
+            "key": {
+              "string": "dirtHoed"
+            },
+            "value": {
+              "unsignedInt": 278
+            }
+          },
+          {
+            "key": {
+              "string": "seedsSown"
+            },
+            "value": {
+              "unsignedInt": 8
+            }
+          },
+          {
+            "key": {
+              "string": "ArtifactSpotsDug"
+            },
+            "value": {
+              "unsignedInt": 7
+            }
+          },
+          {
+            "key": {
+              "string": "itemsCrafted"
+            },
+            "value": {
+              "unsignedInt": 2
+            }
+          },
+          {
+            "key": {
+              "string": "geodesCracked"
+            },
+            "value": {
+              "unsignedInt": 4
+            }
+          },
+          {
+            "key": {
+              "string": "giftsGiven"
+            },
+            "value": {
+              "unsignedInt": 10
+            }
+          },
+          {
+            "key": {
+              "string": "TreesChopped"
+            },
+            "value": {
+              "unsignedInt": 1
+            }
+          },
+          {
+            "key": {
+              "string": "ChickenEggsLayed"
+            },
+            "value": {
+              "unsignedInt": 18
+            }
+          },
+          {
+            "key": {
+              "string": "itemsShipped"
+            },
+            "value": {
+              "unsignedInt": 33
+            }
+          },
+          {
+            "key": {
+              "string": "timesFished"
+            },
+            "value": {
+              "unsignedInt": 20
+            }
+          },
+          {
+            "key": {
+              "string": "fishCaught"
+            },
+            "value": {
+              "unsignedInt": 13
+            }
+          },
+          {
+            "key": {
+              "string": "PreciseFishCaught"
+            },
+            "value": {
+              "unsignedInt": 11
+            }
+          },
+          {
+            "key": {
+              "string": "copperFound"
+            },
+            "value": {
+              "unsignedInt": 50
+            }
+          },
+          {
+            "key": {
+              "string": "slimesKilled"
+            },
+            "value": {
+              "unsignedInt": 11
+            }
+          },
+          {
+            "key": {
+              "string": "monstersKilled"
+            },
+            "value": {
+              "unsignedInt": 19
+            }
+          }
+        ]
+      },
+      "averageBedtime": "",
+      "beveragesMade": "",
+      "caveCarrotsFound": "",
+      "cheeseMade": "",
+      "chickenEggsLayed": "",
+      "copperFound": "",
+      "cowMilkProduced": "",
+      "cropsShipped": "",
+      "daysPlayed": "",
+      "diamondsFound": "",
+      "dirtHoed": "",
+      "duckEggsLayed": "",
+      "fishCaught": "",
+      "geodesCracked": "",
+      "giftsGiven": "",
+      "goatCheeseMade": "",
+      "goatMilkProduced": "",
+      "goldFound": "",
+      "goodFriends": "",
+      "individualMoneyEarned": "",
+      "iridiumFound": "",
+      "ironFound": "",
+      "itemsCooked": "",
+      "itemsCrafted": "",
+      "itemsForaged": "",
+      "itemsShipped": "",
+      "monstersKilled": "",
+      "mysticStonesCrushed": "",
+      "notesFound": "",
+      "otherPreciousGemsFound": "",
+      "piecesOfTrashRecycled": "",
+      "preservesMade": "",
+      "prismaticShardsFound": "",
+      "questsCompleted": "",
+      "rabbitWoolProduced": "",
+      "rocksCrushed": "",
+      "sheepWoolProduced": "",
+      "slimesKilled": "",
+      "stepsTaken": "",
+      "stoneGathered": "",
+      "stumpsChopped": "",
+      "timesFished": "",
+      "timesUnconscious": "",
+      "totalMoneyGifted": "",
+      "trufflesFound": "",
+      "weedsEliminated": "",
+      "seedsSown": ""
+    },
+    "biteChime": -1,
+    "itemsLostLastDeath": "",
+    "movementDirections": "",
+    "farmName": "Kokoro",
+    "favoriteThing": "love",
+    "slotCanHost": false,
+    "userID": "",
+    "catPerson": "",
+    "canUnderstandDwarves": "",
+    "hasClubCard": "",
+    "hasDarkTalisman": "",
+    "hasMagicInk": "",
+    "hasMagnifyingGlass": "",
+    "hasRustyKey": "",
+    "hasSkullKey": "",
+    "hasSpecialCharm": "",
+    "HasTownKey": "",
+    "hasUnlockedSkullDoor": "",
+    "daysMarried": "",
+    "whichPetType": "Cat",
+    "whichPetBreed": 4,
+    "acceptedDailyQuest": false,
+    "mostRecentBed": {
+      "X": 616.9039,
+      "Y": 605.9337
+    },
+    "shirt": -1,
+    "hair": 24,
+    "skin": 0,
+    "shoes": 2,
+    "accessory": 7,
+    "facialHair": -1,
+    "pants": -1,
+    "lastGotPrizeFromGil": {
+      "WorldDate": ""
+    },
+    "lastDesertFestivalFishingQuest": {
+      "WorldDate": ""
+    },
+    "hairstyleColor": {
+      "B": 255,
+      "G": 255,
+      "R": 255,
+      "A": 255,
+      "PackedValue": 4294967295
+    },
+    "pantsColor": {
+      "B": 2,
+      "G": 2,
+      "R": 1,
+      "A": 255,
+      "PackedValue": 4278321665
+    },
+    "newEyeColor": {
+      "B": 0,
+      "G": 0,
+      "R": 0,
+      "A": 255,
+      "PackedValue": 4278190080
+    },
+    "boots": {
+      "isLostItem": false,
+      "category": -97,
+      "hasBeenInInventory": true,
+      "name": "Leather Boots",
+      "itemId": 506,
+      "specialItem": false,
+      "isRecipe": false,
+      "quality": 0,
+      "stack": 1,
+      "SpecialVariable": 0,
+      "defenseBonus": 1,
+      "immunityBonus": 1,
+      "indexInTileSheet": 506,
+      "price": 50,
+      "indexInColorSheet": 2
+    },
+    "pantsItem": {
+      "isLostItem": false,
+      "category": -100,
+      "hasBeenInInventory": true,
+      "name": "Farmer Pants",
+      "itemId": 0,
+      "specialItem": false,
+      "isRecipe": false,
+      "quality": 0,
+      "stack": 1,
+      "SpecialVariable": 0,
+      "price": 50,
+      "indexInTileSheet": 0,
+      "indexInTileSheetFemale": "",
+      "clothesType": "PANTS",
+      "dyeable": true,
+      "clothesColor": {
+        "B": 2,
+        "G": 2,
+        "R": 1,
+        "A": 255,
+        "PackedValue": 4278321665
+      },
+      "isPrismatic": false,
+      "Price": 50
+    },
+    "divorceTonight": false,
+    "changeWalletTypeTonight": false,
+    "gameVersion": "1.6.15",
+    "bibberstyke": 0,
+    "usingRandomizedBobber": false,
+    "caveChoice": 0,
+    "farmingLevel": 1,
+    "miningLevel": 2,
+    "combatLevel": 0,
+    "foragingLevel": 2,
+    "fishingLevel": 1,
+    "luckLevel": 0,
+    "maxStamina": 270,
+    "maxItems": 24,
+    "lastSeenMovieWeek": -1,
+    "clubCoins": 0,
+    "trashCanLevel": 0,
+    "daysLeftForToolUpgrade": 0,
+    "houseUpgradeLevel": 0,
+    "daysUntilHouseUpgrade": -1,
+    "showChestColorPicker": true,
+    "hasWateringCanEnchantment": false,
+    "temporaryInvincibilityTimer": 0,
+    "currentTemporaryInvincibilityDuration": 1200,
+    "health": 100,
+    "maxHealth": 100,
+    "difficultyModifier": 1,
+    "gender": "Female",
+    "basicShipped": {
+      "item": [
+        {
+          "key": {
+            "string": 180
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": 18
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": 176
+          },
+          "value": {
+            "int": 6
+          }
+        },
+        {
+          "key": {
+            "string": 399
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": 22
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": 700
+          },
+          "value": {
+            "int": 4
+          }
+        },
+        {
+          "key": {
+            "string": 771
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": 684
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": 92
+          },
+          "value": {
+            "int": 2
+          }
+        }
+      ]
+    },
+    "mineralsFound": {
+      "item": [
+        {
+          "key": {
+            "string": 558
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": 571
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": 548
+          },
+          "value": {
+            "int": 1
+          }
+        },
+        {
+          "key": {
+            "string": 80
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": 66
+          },
+          "value": {
+            "int": 3
+          }
+        },
+        {
+          "key": {
+            "string": 68
+          },
+          "value": {
+            "int": 2
+          }
+        },
+        {
+          "key": {
+            "string": 86
+          },
+          "value": {
+            "int": 1
+          }
+        }
+      ]
+    },
+    "recipesCooked": "",
+    "fishCaught": {
+      "item": [
+        {
+          "key": {
+            "string": "(O)142"
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                1,
+                15
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "(O)708"
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                1,
+                10
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "(O)152"
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                1,
+                -1
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "(O)700"
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                4,
+                19
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "(O)153"
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                2,
+                -1
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "(O)RiverJelly"
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                1,
+                -1
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "(O)147"
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                2,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "(O)131"
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                2,
+                6
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "archaeologyFound": {
+      "item": [
+        {
+          "key": {
+            "string": 116
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                1,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": 585
+          },
+          "value": {
+            "ArrayOfInt": {
+              "int": [
+                1,
+                1
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "callsReceived": "",
+    "giftedItems": {
+      "item": [
+        {
+          "key": {
+            "string": "Linus"
+          },
+          "value": {
+            "dictionary": {
+              "item": [
+                {
+                  "key": {
+                    "string": 18
+                  },
+                  "value": {
+                    "int": 1
+                  }
+                },
+                {
+                  "key": {
+                    "string": 20
+                  },
+                  "value": {
+                    "int": 2
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Pierre"
+          },
+          "value": {
+            "dictionary": {
+              "item": {
+                "key": {
+                  "string": 390
+                },
+                "value": {
+                  "int": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Penny"
+          },
+          "value": {
+            "dictionary": {
+              "item": {
+                "key": {
+                  "string": 16
+                },
+                "value": {
+                  "int": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "George"
+          },
+          "value": {
+            "dictionary": {
+              "item": [
+                {
+                  "key": {
+                    "string": 24
+                  },
+                  "value": {
+                    "int": 1
+                  }
+                },
+                {
+                  "key": {
+                    "string": 20
+                  },
+                  "value": {
+                    "int": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Evelyn"
+          },
+          "value": {
+            "dictionary": {
+              "item": {
+                "key": {
+                  "string": 180
+                },
+                "value": {
+                  "int": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Leah"
+          },
+          "value": {
+            "dictionary": {
+              "item": {
+                "key": {
+                  "string": 152
+                },
+                "value": {
+                  "int": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Harvey"
+          },
+          "value": {
+            "dictionary": {
+              "item": {
+                "key": {
+                  "string": 223
+                },
+                "value": {
+                  "int": 1
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "tailoredItems": "",
+    "friendshipData": {
+      "item": [
+        {
+          "key": {
+            "string": "Lewis"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 130,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Robin"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 148,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Clint"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 122,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Pam"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 122,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Shane"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 144,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Maru"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 124,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Abigail"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 124,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Alex"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 146,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Emily"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 124,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Evelyn"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 122,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "LastGiftDate": {
+                "Year": 1,
+                "DayOfMonth": 6,
+                "Season": "spring"
+              },
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "George"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 249,
+              "GiftsThisWeek": 1,
+              "GiftsToday": 0,
+              "LastGiftDate": {
+                "Year": 1,
+                "DayOfMonth": 10,
+                "Season": "spring"
+              },
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Sam"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 124,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Elliott"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 146,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Willy"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 124,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Haley"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 102,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Jodi"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 124,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Marnie"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 102,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Penny"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 144,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "LastGiftDate": {
+                "Year": 1,
+                "DayOfMonth": 5,
+                "Season": "spring"
+              },
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Sebastian"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 104,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Demetrius"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 126,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Linus"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 261,
+              "GiftsThisWeek": 2,
+              "GiftsToday": 0,
+              "LastGiftDate": {
+                "Year": 1,
+                "DayOfMonth": 9,
+                "Season": "spring"
+              },
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Pierre"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 106,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "LastGiftDate": {
+                "Year": 1,
+                "DayOfMonth": 4,
+                "Season": "spring"
+              },
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Caroline"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 106,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Vincent"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 128,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Gus"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 106,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Jas"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 108,
+              "GiftsThisWeek": 0,
+              "GiftsToday": 0,
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Harvey"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 112,
+              "GiftsThisWeek": 1,
+              "GiftsToday": 0,
+              "LastGiftDate": {
+                "Year": 1,
+                "DayOfMonth": 10,
+                "Season": "spring"
+              },
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        },
+        {
+          "key": {
+            "string": "Leah"
+          },
+          "value": {
+            "Friendship": {
+              "Points": 92,
+              "GiftsThisWeek": 1,
+              "GiftsToday": 0,
+              "LastGiftDate": {
+                "Year": 1,
+                "DayOfMonth": 7,
+                "Season": "spring"
+              },
+              "TalkedToToday": false,
+              "ProposalRejected": false,
+              "Status": "Friendly",
+              "Proposer": 0,
+              "RoommateMarriage": false
+            }
+          }
+        }
+      ]
+    },
+    "dayOfMonthForSaveGame": 12,
+    "seasonForSaveGame": 0,
+    "yearForSaveGame": 1,
+    "qiGems": 0,
+    "chestConsumedLevels": {
+      "item": {
+        "key": {
+          "int": 10
+        },
+        "value": {
+          "boolean": true
+        }
+      }
+    },
+    "saveTime": 6661442,
+    "isCustomized": true,
+    "homeLocation": "FarmHouse",
+    "lastSleepLocation": "FarmHouse",
+    "lastSleepPoint": {
+      "X": 10,
+      "Y": 9
+    },
+    "disconnectDay": -1,
+    "disconnectPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "movementMultiplier": 0.066,
+    "isMale": "",
+    "deepestMineLevel": 14,
+    "stamina": 270,
+    "totalMoneyEarned": 3119,
+    "millisecondsPlayed": 13476288,
+    "useSeparateWallets": false,
+    "theaterBuildDate": -1,
+    "timesReachedMineBottom": 0,
+    "UniqueMultiplayerID": "3880935696502197703",
+    "money": 1419
+}
