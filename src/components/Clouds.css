@@ -1,6 +1,6 @@
 @layer utilities {
 .animate-float-block {
-  animation: float-block 200s infinite linear;
+  animation: float-block 300s infinite linear;
   }
 
  .animate-float-lg {
@@ -20,7 +20,7 @@
  }
 
  .animate-bob-block {
-  animation: bob-block 150s infinite ease-in-out;
+  animation: bob-block 250s infinite ease-in-out;
  }
 
  .animate-bob-lg {
@@ -40,7 +40,7 @@
  }
 
  .animate-float-bob-block {
-  animation: float-bob-block 100s infinite linear, bob-block 150s infinite ease-in-out;
+  animation: float-bob-block 200s infinite linear, bob-block 150s infinite ease-in-out;
  }
  
  .animate-float-bob-lg {
@@ -76,7 +76,7 @@
 }
 
 @keyframes float-block {
-  0% { left: -200px; }
+  0% { left: -2400px; }
   100% { left: calc(100% + 200px); }
 }
 
@@ -111,7 +111,7 @@
 }
 
 @keyframes float-bob-block {
-  0% { left: -200px; top: 1%; }
+  0% { left: -3900px; top: 1%; }
   100% { left: calc(100% + 200px); top: 2%; }
 }
 
