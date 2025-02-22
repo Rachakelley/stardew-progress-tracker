@@ -1,0 +1,215 @@
+@layer utilities {
+.animate-float-block {
+  animation: float-block 200s infinite linear;
+  }
+
+ .animate-float-lg {
+  animation: float-lg 100s infinite linear;
+ }
+
+ .animate-float-md {
+  animation: float-md 100s infinite linear;
+ }
+
+ .animate-float-sm {
+  animation: float-sm 100s infinite linear;
+ }
+
+ .animate-float-sm-translucent {
+  animation: float-sm-translucent 100s infinite linear;
+ }
+
+ .animate-bob-block {
+  animation: bob-block 150s infinite ease-in-out;
+ }
+
+ .animate-bob-lg {
+  animation: bob-lg 80s infinite ease-in-out;
+ }
+
+ .animate-bob-md {
+  animation: bob-md 80s infinite ease-in-out;
+ }
+
+ .animate-bob-sm {
+  animation: bob-sm 80s infinite ease-in-out;
+ }
+
+ .animate-bob-sm-translucent {
+  animation: bob-sm-translucent 80s infinite ease-in-out;
+ }
+
+ .animate-float-bob-block {
+  animation: float-bob-block 100s infinite linear, bob-block 150s infinite ease-in-out;
+ }
+ 
+ .animate-float-bob-lg {
+  animation: float-bob-lg 100s infinite linear, bob-lg 80s infinite ease-in-out;
+ }
+
+ .animate-float-bob-md {
+  animation: float-bob-md 100s infinite linear, bob-md 80s infinite ease-in-out;
+ }
+
+ .animate-float-bob-sm {
+  animation: float-bob-sm 100s infinite linear, bob-sm 80s infinite ease-in-out;
+ }
+
+ .animate-float-bob-sm-translucent {
+  animation: float-bob-sm-translucent 100s infinite linear,
+   bob-sm-translucent 80s infinite ease-in-out;
+ }
+
+ .animate-float-bob-md-translucent {
+  animation: float-bob-md-translucent 100s infinite linear,
+   bob-md-translucent 80s infinite ease-in-out;
+ }
+
+ .animate-float-lg-translucent {
+  animation: float-lg-translucent 100s infinite linear;
+ }
+
+ .animate-float-bob-lg-translucent {
+  animation: float-bob-lg-translucent 100s infinite linear,
+   bob-lg-translucent 80s infinite ease-in-out;
+ }
+}
+
+@keyframes float-block {
+  0% { left: -200px; }
+  100% { left: calc(100% + 200px); }
+}
+
+@keyframes float-lg {
+  0% { left: -600px; }
+  100% { left: calc(100% + 200px); }
+}
+
+@keyframes float-md {
+  0% { left: -1000px; }
+  100% { left: calc(100% + 200px); }
+}
+
+@keyframes float-sm {
+  0% { left: -1400px; }
+  100% { left: calc(100% + 200px); }
+}
+
+@keyframes float-sm-translucent {
+  0% { left: -1800px; }
+  100% { left: calc(100% + 200px); }
+}
+
+@keyframes float-md-translucent {
+  0% { left: -2200px; }
+  100% { left: calc(100% + 200px); }
+}
+
+@keyframes float-lg-translucent {
+  0% { left: -2600px; }
+  100% { left: calc(100% + 200px); }
+}
+
+@keyframes float-bob-block {
+  0% { left: -200px; top: 1%; }
+  100% { left: calc(100% + 200px); top: 2%; }
+}
+
+@keyframes float-bob-lg {
+  0% { left: -600px; top: 23%; }
+  100% { left: calc(100% + 200px); top: 23%; }
+}
+
+@keyframes float-bob-md {
+  0% { left: -1000px; top: 19%; }
+  100% { left: calc(100% + 200px); top: 18%; }
+}
+
+@keyframes float-bob-sm {
+  0% { left: -1400px; top: 12%; }
+  100% { left: calc(100% + 200px); top: 12%; }
+}
+
+@keyframes float-bob-sm-translucent {
+  0% { left: -1800px; top: 10%; }
+  100% { left: calc(100% + 200px); top: 10%; }
+}
+
+@keyframes float-bob-md-translucent {
+  0% { left: -1100px; top: 20%; }
+  100% { left: calc(100% + 200px); top: 21%; }
+}
+
+@keyframes float-bob-lg-translucent {
+  0% { left: -2000px; top: 13%; }
+  100% { left: calc(100% + 200px); top: 10%; }
+}
+
+@keyframes bob-block {
+  0% {
+    top: 1%;
+  }
+  100% {
+    top: 2%;
+  }
+}
+
+@keyframes bob-lg {
+ 0%,
+ 100% {
+  top: 23%;
+ }
+ 50% {
+  top: 25%;
+ }
+}
+
+@keyframes bob-md {
+ 0%,
+ 100% {
+  top: 15%;
+ }
+ 50% {
+  top: 17%;
+ }
+}
+
+@keyframes bob-sm {
+ 0%,
+ 100% {
+  top: 12%;
+ }
+ 50% {
+  top: 14%;
+ }
+}
+
+@keyframes bob-sm-translucent {
+ 0%,
+ 100% {
+  top: 10%;
+ }
+ 50% {
+  top: 12%;
+ }
+}
+
+@keyframes bob-md-translucent {
+ 0%,
+ 100% {
+  top: 10%;
+ }
+ 50% {
+  top: 12%;
+ }
+}
+
+@keyframes bob-lg-translucent {
+ 0%,
+ 100% {
+  top: 12%;
+ }
+ 50% {
+  top: 14%;
+ }
+}
