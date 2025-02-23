@@ -1,3 +1,5 @@
+import Color from "./Color";
+
 export default interface PantsItem {
  isLostItem: boolean;
  category: number;
