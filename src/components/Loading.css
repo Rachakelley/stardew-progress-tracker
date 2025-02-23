@@ -1,0 +1,17 @@
+.dots {
+  display: inline-block;
+  width: 20px;
+  text-align: left;
+}
+
+.dots:after {
+  content: attr(data-text);
+  animation: loading 2.5s infinite;
+}
+
+@keyframes loading {
+  0% { content: ''; }
+  25% { content: '.'; }
+  50% { content: '..'; }
+  75% { content: '...'; }
+}

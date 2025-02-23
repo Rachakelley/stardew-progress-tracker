@@ -40,7 +40,7 @@
  }
 
  .animate-float-bob-block {
-  animation: float-bob-block 200s infinite linear, bob-block 150s infinite ease-in-out;
+  animation: float-bob-block 300s infinite linear, bob-block 300s infinite ease-in-out;
  }
  
  .animate-float-bob-lg {
@@ -75,141 +75,135 @@
  }
 }
 
+/* block cloud keyframes */
 @keyframes float-block {
-  0% { left: -2400px; }
-  100% { left: calc(100% + 200px); }
-}
-
-@keyframes float-lg {
-  0% { left: -600px; }
-  100% { left: calc(100% + 200px); }
-}
-
-@keyframes float-md {
-  0% { left: -1000px; }
-  100% { left: calc(100% + 200px); }
-}
-
-@keyframes float-sm {
-  0% { left: -1400px; }
-  100% { left: calc(100% + 200px); }
-}
-
-@keyframes float-sm-translucent {
-  0% { left: -1800px; }
-  100% { left: calc(100% + 200px); }
-}
-
-@keyframes float-md-translucent {
-  0% { left: -2200px; }
-  100% { left: calc(100% + 200px); }
-}
-
-@keyframes float-lg-translucent {
   0% { left: -2600px; }
   100% { left: calc(100% + 200px); }
 }
-
-@keyframes float-bob-block {
-  0% { left: -3900px; top: 1%; }
-  100% { left: calc(100% + 200px); top: 2%; }
-}
-
-@keyframes float-bob-lg {
-  0% { left: -600px; top: 23%; }
-  100% { left: calc(100% + 200px); top: 23%; }
-}
-
-@keyframes float-bob-md {
-  0% { left: -1000px; top: 19%; }
-  100% { left: calc(100% + 200px); top: 18%; }
-}
-
-@keyframes float-bob-sm {
-  0% { left: -1400px; top: 12%; }
-  100% { left: calc(100% + 200px); top: 12%; }
-}
-
-@keyframes float-bob-sm-translucent {
-  0% { left: -1800px; top: 10%; }
-  100% { left: calc(100% + 200px); top: 10%; }
-}
-
-@keyframes float-bob-md-translucent {
-  0% { left: -1100px; top: 20%; }
-  100% { left: calc(100% + 200px); top: 21%; }
-}
-
-@keyframes float-bob-lg-translucent {
-  0% { left: -2000px; top: 13%; }
-  100% { left: calc(100% + 200px); top: 10%; }
-}
-
 @keyframes bob-block {
   0% {
-    top: 1%;
+    top: 20%;
   }
   100% {
-    top: 2%;
+    top: 22%;
   }
 }
+@keyframes float-bob-block {
+  0% { left: -2600px; top: 20%; }
+  100% { left: calc(100% + 200px); top: 22%; }
+}
 
+/* large cloud keyframes */
+@keyframes float-lg {
+  0% { left: -150px; }
+  100% { left: calc(100% + 200px); }
+}
 @keyframes bob-lg {
- 0%,
- 100% {
-  top: 23%;
+  0%,
+  100% {
+   top: 55%;
+  }
+  50% {
+   top: 57%;
+  }
  }
- 50% {
-  top: 25%;
- }
+@keyframes float-bob-lg {
+  0% { left: -150px; top: 55%; }
+  100% { left: calc(100% + 200px); top: 57%; }
 }
 
+/* medium cloud keyframes */
+@keyframes float-md {
+  0% { left: -300px; }
+  100% { left: calc(100% + 200px); }
+}
 @keyframes bob-md {
- 0%,
- 100% {
-  top: 15%;
+  0%,
+  100% {
+   top: 45%;
+  }
+  50% {
+   top: 47%;
+  }
  }
- 50% {
-  top: 17%;
- }
+ @keyframes float-bob-md {
+  0% { left: -350px; top: 45%; }
+  100% { left: calc(100% + 200px); top: 47%; }
 }
 
+/* small cloud keyframes */
+@keyframes float-sm {
+  0% { left: -600px; }
+  100% { left: calc(100% + 200px); }
+}
 @keyframes bob-sm {
- 0%,
- 100% {
-  top: 12%;
+  0%,
+  100% {
+   top: 62%;
+  }
+  50% {
+   top: 64%;
+  }
  }
- 50% {
-  top: 14%;
- }
+ @keyframes float-bob-sm {
+  0% { left: -600px; top: 62%; }
+  100% { left: calc(100% + 200px); top: 64%; }
 }
 
+/* small translucent cloud keyframes */
+@keyframes float-sm-translucent {
+  0% { left: -300px; }
+  100% { left: calc(100% + 200px); }
+}
 @keyframes bob-sm-translucent {
- 0%,
- 100% {
-  top: 10%;
+  0%,
+  100% {
+   top: 38%;
+  }
+  50% {
+   top: 39%;
+  }
  }
- 50% {
-  top: 12%;
- }
+ @keyframes float-bob-sm-translucent {
+  0% { left: -300px; top: 38%; }
+  100% { left: calc(100% + 200px); top: 39%; }
 }
 
+
+/* medium translucent cloud keyframes */
+@keyframes float-md-translucent {
+  0% { left: -120px; }
+  100% { left: calc(100% + 200px); }
+}
 @keyframes bob-md-translucent {
- 0%,
- 100% {
-  top: 10%;
+  0%,
+  100% {
+   top: 22%;
+  }
+  50% {
+   top: 24%;
+  }
  }
- 50% {
-  top: 12%;
- }
+ @keyframes float-bob-md-translucent {
+  0% { left: -1100px; top: 22%; }
+  100% { left: calc(100% + 200px); top: 24%; }
 }
 
+/* large translucent cloud keyframes */
+@keyframes float-lg-translucent {
+  0% { left: -400px; }
+  100% { left: calc(100% + 200px); }
+}
 @keyframes bob-lg-translucent {
- 0%,
- 100% {
-  top: 12%;
+  0%,
+  100% {
+   top: 30%;
+  }
+  50% {
+   top: 31%;
+  }
  }
- 50% {
-  top: 14%;
- }
+@keyframes float-bob-lg-translucent {
+  0% { left: -200px; top: 30%; }
+  100% { left: calc(100% + 200px); top: 31%; }
 }

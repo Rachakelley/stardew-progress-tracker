@@ -6,8 +6,11 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(39, 39, 39, 0.87);
+  background: linear-gradient(to bottom right, #dcfbff, #e6f6ff73, #f7fcff73, #00651e0c);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

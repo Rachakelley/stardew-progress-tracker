@@ -101,6 +101,7 @@ export default interface Player {
  newEyeColor: Color;
  boots: Boots;
  pantsItem: PantsItem;
+ catPerson: boolean | string;
  isMale: string;
  deepestMineLevel: number;
  timesReachedMineBottom: number;

@@ -1,15 +1,12 @@
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function getGameSummary(saveData: any) {
- if (!saveData) {
-  return null;
+export const getGameSummary = (gameData: any) => {
+ if (!gameData) {
+  return { currentSeason: "", dayOfMonth: 0, year: 0 };
  }
 
- const { currentSeason, dayOfMonth, year, whichFarm } = saveData;
-
  return {
-  currentSeason,
-  dayOfMonth,
-  year,
-  whichFarm,
+  currentSeason: gameData.currentSeason || "",
+  dayOfMonth: Number(gameData.dayOfMonth) || 0,
+  year: Number(gameData.year) || 0,
  };
-}
+};
